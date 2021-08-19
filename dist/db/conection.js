@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var sequelize_1 = require("sequelize");
+// coneccion a mi db :)
+// db usuario y contrasena
+var db = new sequelize_1.Sequelize('node', 'diginho', '1234', {
+    host: 'localhost',
+    dialect: 'mariadb',
+});
+exports.default = db;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uZWN0aW9uLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vZGIvY29uZWN0aW9uLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsdUNBQXNDO0FBR3RDLHVCQUF1QjtBQUN2QiwwQkFBMEI7QUFDMUIsSUFBTSxFQUFFLEdBQUcsSUFBSSxxQkFBUyxDQUFDLE1BQU0sRUFBQyxTQUFTLEVBQUMsTUFBTSxFQUFDO0lBQzdDLElBQUksRUFBRyxXQUFXO0lBQ2xCLE9BQU8sRUFBRyxTQUFTO0NBRXRCLENBQUMsQ0FBQztBQUVILGtCQUFlLEVBQUUsQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFNlcXVlbGl6ZSB9IGZyb20gXCJzZXF1ZWxpemVcIjtcclxuXHJcblxyXG4vLyBjb25lY2Npb24gYSBtaSBkYiA6KVxyXG4vLyBkYiB1c3VhcmlvIHkgY29udHJhc2VuYVxyXG5jb25zdCBkYiA9IG5ldyBTZXF1ZWxpemUoJ25vZGUnLCdkaWdpbmhvJywnMTIzNCcse1xyXG4gICAgaG9zdCA6ICdsb2NhbGhvc3QnLFxyXG4gICAgZGlhbGVjdCA6ICdtYXJpYWRiJyxcclxuXHJcbn0pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZGIiXX0=
